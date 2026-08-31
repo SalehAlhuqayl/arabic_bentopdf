@@ -10,7 +10,7 @@
 
     <meta
       name="title"
-      content="Edit PDF Text Online Free - PDF Text Editor | BentoPDF"
+      content="Edit PDF Text Online Free - PDF Text Editor | المحرر"
     />
     <meta
       name="description"
@@ -20,7 +20,7 @@
       name="keywords"
       content="edit pdf text, pdf text editor, change pdf text, rewrite pdf paragraph"
     />
-    <meta name="author" content="BentoPDF" />
+    <meta name="author" content="المحرر" />
     <meta
       name="robots"
       content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
@@ -32,13 +32,13 @@
     <meta property="og:url" content="https://www.bentopdf.com/edit-pdf-text" />
     <meta
       property="og:title"
-      content="Edit PDF Text Online Free - PDF Text Editor | BentoPDF"
+      content="Edit PDF Text Online Free - PDF Text Editor | المحرر"
     />
     <meta
       property="og:description"
       content="★ Edit PDF text online free - Click any paragraph and edit it in place with live reflow ★ No signup ★ Privacy-first ★ Works in browser"
     />
-    <meta property="og:site_name" content="BentoPDF" />
+    <meta property="og:site_name" content="المحرر" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:url" content="https://www.bentopdf.com/edit-pdf-text" />
@@ -53,7 +53,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-title" content="Edit PDF Text" />
 
-    <title>Edit PDF Text - BentoPDF</title>
+    <title>Edit PDF Text - المحرر</title>
 
     <link href="/src/css/styles.css" rel="stylesheet" />
     <link href="/src/css/edit-pdf-text.css" rel="stylesheet" />
@@ -81,20 +81,20 @@
     <link rel="icon" href="/favicon.ico" sizes="32x32" />
   </head>
 
-  <body class="antialiased bg-gray-900">
+  <body class="antialiased   bg-gray-900">
     {{> navbar }}
 
     <div
       id="uploader"
-      class="min-h-screen flex flex-col items-center justify-start py-12 p-4 bg-gray-900"
+      class="min-h-screen   flex   flex-col   items-center   justify-start   py-12   p-4   bg-gray-900"
     >
       <div
         id="tool-uploader"
-        class="bg-gray-800 rounded-xl shadow-xl px-4 py-8 md:p-8 max-w-2xl w-full text-blue-400 border border-gray-700"
+        class="bg-gray-800   rounded-xl   shadow-xl   px-4   py-8   md:p-8   max-w-2xl   w-full   text-blue-400   border   border-gray-700"
       >
         <button
           id="back-to-tools"
-          class="flex items-center gap-2 text-indigo-400 hover:text-indigo-300 mb-6 font-semibold"
+          class="flex   items-center   gap-2   text-indigo-400   hover:text-indigo-300   mb-6   font-semibold"
         >
           <i data-lucide="arrow-left" class="cursor-pointer"></i>
           <span class="cursor-pointer" data-i18n="tools.backToTools">
@@ -103,39 +103,39 @@
         </button>
 
         <h1
-          class="text-2xl font-bold text-white mb-2"
+          class="text-2xl   font-bold   text-white   mb-2"
           data-i18n="tools:editPdfText.name"
         >
           Edit PDF Text
         </h1>
-        <p class="text-gray-400 mb-6" data-i18n="tools:editPdfText.subtitle">
+        <p class="text-gray-400   mb-6" data-i18n="tools:editPdfText.subtitle">
           Click any paragraph and edit it in place with live reflow, fonts, and
           styling.
         </p>
 
         <div
           id="drop-zone"
-          class="relative flex flex-col items-center justify-center w-full h-48 md:h-64 border-2 border-dashed border-gray-600 rounded-xl cursor-pointer bg-gray-900 hover:bg-gray-700 transition-colors duration-300"
+          class="relative   flex   flex-col   items-center   justify-center   w-full   h-48   md:h-64   border-2   border-dashed   border-gray-600   rounded-xl   cursor-pointer   bg-gray-900   hover:bg-gray-700   transition-colors   duration-300"
         >
-          <div class="flex flex-col items-center justify-center pt-5 pb-6">
-            <i class="ph ph-upload-simple text-4xl mb-3 text-gray-400"></i>
-            <p class="mb-2 text-sm text-gray-400">
+          <div class="flex   flex-col   items-center   justify-center   pt-5   pb-6">
+            <i class="ph   ph-upload-simple   text-4xl   mb-3   text-gray-400"></i>
+            <p class="mb-2   text-sm   text-gray-400">
               <span class="font-semibold" data-i18n="upload.clickToSelect"
                 >Click to select a file</span
               >
               <span data-i18n="upload.orDragAndDrop">or drag and drop</span>
             </p>
-            <p class="text-xs text-gray-500" data-i18n="upload.hints.pdfFile">
+            <p class="text-xs   text-gray-500" data-i18n="upload.hints.pdfFile">
               PDF file
             </p>
-            <p class="text-xs text-gray-500" data-i18n="upload.filesNeverLeave">
+            <p class="text-xs   text-gray-500" data-i18n="upload.filesNeverLeave">
               Your files never leave your device.
             </p>
           </div>
           <input
             id="file-input"
             type="file"
-            class="absolute top-0 left-0 w-full h-full opacity-0 cursor-pointer"
+            class="absolute   top-0   start-0   w-full   h-full   opacity-0   cursor-pointer"
             accept="application/pdf"
           />
         </div>
@@ -143,23 +143,23 @@
     </div>
 
     <div id="tool-landing">
-      <section class="max-w-4xl mx-auto px-4 py-12">
+      <section class="max-w-4xl   mx-auto   px-4   py-12">
         <h2
-          class="text-2xl md:text-3xl font-bold text-white mb-8 text-center"
+          class="text-2xl   md:text-3xl   font-bold   text-white   mb-8   text-center"
           data-i18n="howItWorks.title"
         >
           How It Works
         </h2>
         <div class="space-y-6">
-          <div class="flex items-start gap-4">
+          <div class="flex   items-start   gap-4">
             <div
-              class="flex-shrink-0 w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center text-white font-bold"
+              class="flex-shrink-0   w-10   h-10   bg-indigo-600   rounded-full   flex   items-center   justify-center   text-white   font-bold"
             >
               1
             </div>
             <div class="flex-1">
               <h3
-                class="text-lg font-semibold text-white mb-1"
+                class="text-lg   font-semibold   text-white   mb-1"
                 data-i18n="tools:editPdfText.howToUpload"
               >
                 Upload PDF
@@ -169,15 +169,15 @@
               </p>
             </div>
           </div>
-          <div class="flex items-start gap-4">
+          <div class="flex   items-start   gap-4">
             <div
-              class="flex-shrink-0 w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center text-white font-bold"
+              class="flex-shrink-0   w-10   h-10   bg-indigo-600   rounded-full   flex   items-center   justify-center   text-white   font-bold"
             >
               2
             </div>
             <div class="flex-1">
               <h3
-                class="text-lg font-semibold text-white mb-1"
+                class="text-lg   font-semibold   text-white   mb-1"
                 data-i18n="tools:editPdfText.howToClick"
               >
                 Click a Paragraph
@@ -188,15 +188,15 @@
               </p>
             </div>
           </div>
-          <div class="flex items-start gap-4">
+          <div class="flex   items-start   gap-4">
             <div
-              class="flex-shrink-0 w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center text-white font-bold"
+              class="flex-shrink-0   w-10   h-10   bg-indigo-600   rounded-full   flex   items-center   justify-center   text-white   font-bold"
             >
               3
             </div>
             <div class="flex-1">
               <h3
-                class="text-lg font-semibold text-white mb-1"
+                class="text-lg   font-semibold   text-white   mb-1"
                 data-i18n="tools:editPdfText.howToRestyle"
               >
                 Restyle Anything
@@ -207,15 +207,15 @@
               </p>
             </div>
           </div>
-          <div class="flex items-start gap-4">
+          <div class="flex   items-start   gap-4">
             <div
-              class="flex-shrink-0 w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center text-white font-bold"
+              class="flex-shrink-0   w-10   h-10   bg-indigo-600   rounded-full   flex   items-center   justify-center   text-white   font-bold"
             >
               4
             </div>
             <div class="flex-1">
               <h3
-                class="text-lg font-semibold text-white mb-1"
+                class="text-lg   font-semibold   text-white   mb-1"
                 data-i18n="common.save"
               >
                 Save
@@ -229,26 +229,26 @@
         </div>
       </section>
 
-      <section class="max-w-6xl mx-auto px-4 py-12">
+      <section class="max-w-6xl   mx-auto   px-4   py-12">
         <h2
-          class="text-2xl md:text-3xl font-bold text-white mb-6 text-center"
+          class="text-2xl   md:text-3xl   font-bold   text-white   mb-6   text-center"
           data-i18n="relatedTools.title"
         >
           Related PDF Tools
         </h2>
-        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+        <div class="grid   grid-cols-2   md:grid-cols-3   lg:grid-cols-6   gap-4">
           <a
             href="pdf-editor.html"
-            class="block bg-gray-800 p-4 rounded-lg hover:bg-gray-700 transition-colors border border-gray-700"
+            class="block   bg-gray-800   p-4   rounded-lg   hover:bg-gray-700   transition-colors   border   border-gray-700"
           >
             <h3
-              class="text-white font-semibold mb-1"
+              class="text-white   font-semibold   mb-1"
               data-i18n="tools:pdfEditor.name"
             >
               PDF Editor
             </h3>
             <p
-              class="text-gray-400 text-sm"
+              class="text-gray-400   text-sm"
               data-i18n="tools:editPdfText.relatedPdfEditor"
             >
               Annotate and mark up PDFs
@@ -256,16 +256,16 @@
           </a>
           <a
             href="sign-pdf.html"
-            class="block bg-gray-800 p-4 rounded-lg hover:bg-gray-700 transition-colors border border-gray-700"
+            class="block   bg-gray-800   p-4   rounded-lg   hover:bg-gray-700   transition-colors   border   border-gray-700"
           >
             <h3
-              class="text-white font-semibold mb-1"
+              class="text-white   font-semibold   mb-1"
               data-i18n="tools:signPdf.name"
             >
               Sign PDF
             </h3>
             <p
-              class="text-gray-400 text-sm"
+              class="text-gray-400   text-sm"
               data-i18n="tools:editPdfText.relatedSignPdf"
             >
               Draw, type or upload a signature
@@ -273,16 +273,16 @@
           </a>
           <a
             href="add-watermark.html"
-            class="block bg-gray-800 p-4 rounded-lg hover:bg-gray-700 transition-colors border border-gray-700"
+            class="block   bg-gray-800   p-4   rounded-lg   hover:bg-gray-700   transition-colors   border   border-gray-700"
           >
             <h3
-              class="text-white font-semibold mb-1"
+              class="text-white   font-semibold   mb-1"
               data-i18n="tools:addWatermark.name"
             >
               Add Watermark
             </h3>
             <p
-              class="text-gray-400 text-sm"
+              class="text-gray-400   text-sm"
               data-i18n="tools:editPdfText.relatedWatermark"
             >
               Stamp text or images
@@ -290,16 +290,16 @@
           </a>
           <a
             href="add-stamps.html"
-            class="block bg-gray-800 p-4 rounded-lg hover:bg-gray-700 transition-colors border border-gray-700"
+            class="block   bg-gray-800   p-4   rounded-lg   hover:bg-gray-700   transition-colors   border   border-gray-700"
           >
             <h3
-              class="text-white font-semibold mb-1"
+              class="text-white   font-semibold   mb-1"
               data-i18n="tools:addStamps.name"
             >
               Add Stamps
             </h3>
             <p
-              class="text-gray-400 text-sm"
+              class="text-gray-400   text-sm"
               data-i18n="tools:editPdfText.relatedStamps"
             >
               Place stamps on pages
@@ -307,16 +307,16 @@
           </a>
           <a
             href="compress-pdf.html"
-            class="block bg-gray-800 p-4 rounded-lg hover:bg-gray-700 transition-colors border border-gray-700"
+            class="block   bg-gray-800   p-4   rounded-lg   hover:bg-gray-700   transition-colors   border   border-gray-700"
           >
             <h3
-              class="text-white font-semibold mb-1"
+              class="text-white   font-semibold   mb-1"
               data-i18n="tools:compressPdf.name"
             >
               Compress PDF
             </h3>
             <p
-              class="text-gray-400 text-sm"
+              class="text-gray-400   text-sm"
               data-i18n="tools:editPdfText.relatedCompress"
             >
               Shrink the file size
@@ -324,16 +324,16 @@
           </a>
           <a
             href="organize-pdf.html"
-            class="block bg-gray-800 p-4 rounded-lg hover:bg-gray-700 transition-colors border border-gray-700"
+            class="block   bg-gray-800   p-4   rounded-lg   hover:bg-gray-700   transition-colors   border   border-gray-700"
           >
             <h3
-              class="text-white font-semibold mb-1"
+              class="text-white   font-semibold   mb-1"
               data-i18n="tools:editPdfText.relatedOrganizeName"
             >
               Organize PDF
             </h3>
             <p
-              class="text-gray-400 text-sm"
+              class="text-gray-400   text-sm"
               data-i18n="tools:editPdfText.relatedOrganize"
             >
               Reorder and manage pages
@@ -342,47 +342,47 @@
         </div>
       </section>
 
-      <section class="max-w-4xl mx-auto px-4 py-12">
+      <section class="max-w-4xl   mx-auto   px-4   py-12">
         <h2
-          class="text-2xl md:text-3xl font-bold text-white mb-6 text-center"
+          class="text-2xl   md:text-3xl   font-bold   text-white   mb-6   text-center"
           data-i18n="faq.sectionTitle"
         >
           Frequently Asked Questions
         </h2>
         <div class="space-y-4">
-          <details class="bg-gray-800 p-5 rounded-lg border border-gray-700">
+          <details class="bg-gray-800   p-5   rounded-lg   border   border-gray-700">
             <summary
-              class="cursor-pointer font-semibold text-white flex items-center justify-between"
+              class="cursor-pointer   font-semibold   text-white   flex   items-center   justify-between"
             >
               Does my PDF leave my device?
-              <i data-lucide="chevron-down" class="w-5 h-5"></i>
+              <i data-lucide="chevron-down" class="w-5   h-5"></i>
             </summary>
-            <p class="mt-3 text-gray-400">
+            <p class="mt-3   text-gray-400">
               No. The whole editor — including the PDF engine — runs in your
               browser. Files are never uploaded anywhere.
             </p>
           </details>
-          <details class="bg-gray-800 p-5 rounded-lg border border-gray-700">
+          <details class="bg-gray-800   p-5   rounded-lg   border   border-gray-700">
             <summary
-              class="cursor-pointer font-semibold text-white flex items-center justify-between"
+              class="cursor-pointer   font-semibold   text-white   flex   items-center   justify-between"
             >
               Why are some paragraphs locked?
-              <i data-lucide="chevron-down" class="w-5 h-5"></i>
+              <i data-lucide="chevron-down" class="w-5   h-5"></i>
             </summary>
-            <p class="mt-3 text-gray-400">
+            <p class="mt-3   text-gray-400">
               Paragraphs using fragile subset fonts or complex layouts are
               protected so your document can't be silently corrupted. Everything
               else stays fully editable.
             </p>
           </details>
-          <details class="bg-gray-800 p-5 rounded-lg border border-gray-700">
+          <details class="bg-gray-800   p-5   rounded-lg   border   border-gray-700">
             <summary
-              class="cursor-pointer font-semibold text-white flex items-center justify-between"
+              class="cursor-pointer   font-semibold   text-white   flex   items-center   justify-between"
             >
               Will the fonts match the original?
-              <i data-lucide="chevron-down" class="w-5 h-5"></i>
+              <i data-lucide="chevron-down" class="w-5   h-5"></i>
             </summary>
-            <p class="mt-3 text-gray-400">
+            <p class="mt-3   text-gray-400">
               Yes — the editor reuses the document's embedded fonts where
               possible, and you can also pull in fonts installed on your device.
             </p>
@@ -397,11 +397,11 @@
         <div class="tgroup">
           <button
             id="exitEditor"
-            class="btn icon"
+            class="btn   icon"
             title="Back to upload"
             data-i18n-title="tools:editPdfText.tipBackToUpload"
           >
-            <i class="ph ph-arrow-left"></i>
+            <i class="ph   ph-arrow-left"></i>
           </button>
           <label
             class="btn"
@@ -409,7 +409,7 @@
             title="Open another PDF"
             data-i18n-title="tools:editPdfText.tipOpenAnotherPdf"
           >
-            <i class="ph ph-folder-open"></i
+            <i class="ph   ph-folder-open"></i
             ><span data-i18n="tools:editPdfText.open">Open</span>
           </label>
           <input id="file" type="file" accept="application/pdf" hidden />
@@ -420,28 +420,28 @@
             title="Export (⌘S)"
             data-i18n-title="tools:editPdfText.tipExportS"
           >
-            <i class="ph ph-export"></i
+            <i class="ph   ph-export"></i
             ><span data-i18n="tools:editPdfText.export">Export</span>
           </button>
           <button
             id="undo"
-            class="btn icon"
+            class="btn   icon"
             disabled
             hidden
             title="Undo (⌘Z)"
             data-i18n-title="tools:editPdfText.tipUndoZ"
           >
-            <i class="ph ph-arrow-u-up-left"></i>
+            <i class="ph   ph-arrow-u-up-left"></i>
           </button>
           <button
             id="redo"
-            class="btn icon"
+            class="btn   icon"
             disabled
             hidden
             title="Redo (⇧⌘Z)"
             data-i18n-title="tools:editPdfText.tipRedoZ"
           >
-            <i class="ph ph-arrow-u-up-right"></i>
+            <i class="ph   ph-arrow-u-up-right"></i>
           </button>
         </div>
         <button
@@ -459,9 +459,9 @@
             title="Edit existing content"
             data-i18n-title="tools:editPdfText.tipEditExistingContent"
           >
-            <i class="ph ph-pencil-simple"></i
+            <i class="ph   ph-pencil-simple"></i
             ><span id="editLabel">Edit All</span
-            ><i class="ph ph-caret-down editcaret"></i>
+            ><i class="ph   ph-caret-down   editcaret"></i>
           </button>
           <select
             id="editScope"
@@ -491,12 +491,12 @@
             title="Click the page to add a text box"
             data-i18n-title="tools:editPdfText.tipClickThePageToAddATextBox"
           >
-            <i class="ph ph-textbox"></i
+            <i class="ph   ph-textbox"></i
             ><span data-i18n="tools:editPdfText.addText">Add Text</span>
           </button>
         </div>
         <input id="imgFile" type="file" accept="image/*" hidden />
-        <div class="tgroup viewopts" hidden>
+        <div class="tgroup   viewopts" hidden>
           <label class="chk"
             ><input id="spellchk" type="checkbox" /> Spelling</label
           >
@@ -523,55 +523,55 @@
           >
         </div>
         <span id="info" class="info"></span>
-        <div class="tgroup toolright">
+        <div class="tgroup   toolright">
           <button
             id="find"
-            class="btn icon"
+            class="btn   icon"
             title="Find &amp; replace"
             data-i18n-title="tools:editPdfText.tipFindAndReplace"
           >
-            <i class="ph ph-magnifying-glass"></i>
+            <i class="ph   ph-magnifying-glass"></i>
           </button>
           <button
             id="addImage"
-            class="btn icon"
+            class="btn   icon"
             title="Add an image"
             data-i18n-title="tools:editPdfText.tipAddAnImage"
           >
-            <i class="ph ph-image"></i>
+            <i class="ph   ph-image"></i>
           </button>
           <button
             id="copyText"
-            class="btn icon"
+            class="btn   icon"
             hidden
             title="Copy this page's text in reading order"
             data-i18n-title="tools:editPdfText.tipCopyThisPageSTextInReadingOrder"
           >
-            <i class="ph ph-clipboard-text"></i>
+            <i class="ph   ph-clipboard-text"></i>
           </button>
           <button
             id="spellPage"
-            class="btn icon"
+            class="btn   icon"
             hidden
             title="Check the spelling of this page"
             data-i18n-title="tools:editPdfText.tipCheckTheSpellingOfThisPage"
           >
-            <i class="ph ph-text-aa"></i>
+            <i class="ph   ph-text-aa"></i>
           </button>
           <span class="sep"></span>
           <button
             id="toggleInspector"
-            class="btn icon"
+            class="btn   icon"
             title="Show or hide the format panel"
             data-i18n-title="tools:editPdfText.tipShowOrHideTheFormatPanel"
           >
-            <i class="ph ph-sidebar-simple"></i>
+            <i class="ph   ph-sidebar-simple"></i>
           </button>
         </div>
       </div>
 
       <div id="spellbar" hidden>
-        <i class="ph ph-text-aa barlead"></i>
+        <i class="ph   ph-text-aa   barlead"></i>
         <span id="spellWord" class="info">—</span>
         <input
           id="spellFix"
@@ -607,11 +607,11 @@
         <span id="spellStatus" class="info"></span>
         <button
           id="spellDone"
-          class="btn icon"
+          class="btn   icon"
           title="Close"
           data-i18n-title="tools:editPdfText.tipClose"
         >
-          <i class="ph ph-x"></i>
+          <i class="ph   ph-x"></i>
         </button>
       </div>
 
@@ -619,16 +619,16 @@
         <div id="findbar" hidden>
           <div class="findhead">
             <span class="findtitle"
-              ><i class="ph ph-magnifying-glass barlead"></i> Find &amp;
+              ><i class="ph   ph-magnifying-glass   barlead"></i> Find &amp;
               Replace</span
             >
             <button
               id="findDone"
-              class="btn icon"
+              class="btn   icon"
               title="Close"
               data-i18n-title="tools:editPdfText.tipClose"
             >
-              <i class="ph ph-x"></i>
+              <i class="ph   ph-x"></i>
             </button>
           </div>
           <div class="findfield">
@@ -639,19 +639,19 @@
             />
             <button
               id="findPrev"
-              class="btn icon"
+              class="btn   icon"
               title="Previous match"
               data-i18n-title="tools:editPdfText.tipPreviousMatch"
             >
-              <i class="ph ph-caret-up"></i>
+              <i class="ph   ph-caret-up"></i>
             </button>
             <button
               id="findNext"
-              class="btn icon"
+              class="btn   icon"
               title="Next match"
               data-i18n-title="tools:editPdfText.tipNextMatch"
             >
-              <i class="ph ph-caret-down"></i>
+              <i class="ph   ph-caret-down"></i>
             </button>
           </div>
           <input
@@ -662,14 +662,14 @@
           <div class="findrow">
             <button
               id="replOne"
-              class="btn grow"
+              class="btn   grow"
               data-i18n="tools:editPdfText.replace"
             >
               Replace
             </button>
             <button
               id="replAll"
-              class="btn grow"
+              class="btn   grow"
               data-i18n="tools:editPdfText.replaceAll"
             >
               Replace All
@@ -693,7 +693,7 @@
               Open a PDF to edit its text, images and shapes.
             </p>
             <label
-              class="btn big"
+              class="btn   big"
               for="file"
               data-i18n="tools:editPdfText.choosePdf"
               >Choose a PDF…</label
@@ -712,104 +712,104 @@
           <div class="tgroup">
             <button
               id="rotL"
-              class="btn icon objbtn"
+              class="btn   icon   objbtn"
               hidden
               title="Rotate left 90°"
               data-i18n-title="tools:editPdfText.tipRotateLeft90"
             >
-              <i class="ph ph-arrow-counter-clockwise"></i>
+              <i class="ph   ph-arrow-counter-clockwise"></i>
             </button>
             <button
               id="rotR"
-              class="btn icon objbtn"
+              class="btn   icon   objbtn"
               hidden
               title="Rotate right 90°"
               data-i18n-title="tools:editPdfText.tipRotateRight90"
             >
-              <i class="ph ph-arrow-clockwise"></i>
+              <i class="ph   ph-arrow-clockwise"></i>
             </button>
             <button
               id="flipH"
-              class="btn icon objbtn"
+              class="btn   icon   objbtn"
               hidden
               title="Flip horizontal"
               data-i18n-title="tools:editPdfText.tipFlipHorizontal"
             >
-              <i class="ph ph-flip-horizontal"></i>
+              <i class="ph   ph-flip-horizontal"></i>
             </button>
             <button
               id="flipV"
-              class="btn icon objbtn"
+              class="btn   icon   objbtn"
               hidden
               title="Flip vertical"
               data-i18n-title="tools:editPdfText.tipFlipVertical"
             >
-              <i class="ph ph-flip-vertical"></i>
+              <i class="ph   ph-flip-vertical"></i>
             </button>
-            <span class="sep objsep" hidden></span>
+            <span class="sep   objsep" hidden></span>
             <button
               id="replImg"
-              class="btn icon objbtn"
+              class="btn   icon   objbtn"
               hidden
               title="Replace this image, keeping its placement"
               data-i18n-title="tools:editPdfText.tipReplaceThisImageKeepingItsPlacement"
             >
-              <i class="ph ph-image-square"></i>
+              <i class="ph   ph-image-square"></i>
             </button>
             <button
               id="extEdit"
-              class="btn icon objbtn"
+              class="btn   icon   objbtn"
               hidden
               title="Save this image as a PNG, edit it in any app; saved changes re-import automatically"
             >
-              <i class="ph ph-arrow-square-out"></i>
+              <i class="ph   ph-arrow-square-out"></i>
             </button>
             <button
               id="altText"
-              class="btn icon objbtn"
+              class="btn   icon   objbtn"
               hidden
               title="Alternate text for accessibility (tagged PDFs)"
               data-i18n-title="tools:editPdfText.tipAlternateTextForAccessibilityTaggedPdfs"
             >
-              <i class="ph ph-tag"></i>
+              <i class="ph   ph-tag"></i>
             </button>
             <input id="replImgFile" type="file" accept="image/*" hidden />
-            <span class="sep objsep" hidden></span>
+            <span class="sep   objsep" hidden></span>
             <button
               id="front"
-              class="btn icon objbtn"
+              class="btn   icon   objbtn"
               hidden
               title="Bring to front"
               data-i18n-title="tools:editPdfText.tipBringToFront"
             >
-              <i class="ph ph-arrow-line-up"></i>
+              <i class="ph   ph-arrow-line-up"></i>
             </button>
             <button
               id="back"
-              class="btn icon objbtn"
+              class="btn   icon   objbtn"
               hidden
               title="Send to back"
               data-i18n-title="tools:editPdfText.tipSendToBack"
             >
-              <i class="ph ph-arrow-line-down"></i>
+              <i class="ph   ph-arrow-line-down"></i>
             </button>
             <button
               id="dupe"
-              class="btn icon objbtn"
+              class="btn   icon   objbtn"
               hidden
               title="Duplicate"
               data-i18n-title="tools:editPdfText.tipDuplicate"
             >
-              <i class="ph ph-copy"></i>
+              <i class="ph   ph-copy"></i>
             </button>
             <button
               id="del"
-              class="btn icon objbtn"
+              class="btn   icon   objbtn"
               hidden
               title="Delete"
               data-i18n-title="tools:editPdfText.tipDelete"
             >
-              <i class="ph ph-trash"></i>
+              <i class="ph   ph-trash"></i>
             </button>
           </div>
           <div id="alignTools" class="segmented" hidden>
@@ -818,62 +818,62 @@
               title="Align left edges"
               data-i18n-title="tools:editPdfText.tipAlignLeftEdges"
             >
-              <i class="ph ph-align-left"></i>
+              <i class="ph   ph-align-left"></i>
             </button>
             <button
               data-al="hcenter"
               title="Align horizontal centers"
               data-i18n-title="tools:editPdfText.tipAlignHorizontalCenters"
             >
-              <i class="ph ph-align-center-horizontal"></i>
+              <i class="ph   ph-align-center-horizontal"></i>
             </button>
             <button
               data-al="right"
               title="Align right edges"
               data-i18n-title="tools:editPdfText.tipAlignRightEdges"
             >
-              <i class="ph ph-align-right"></i>
+              <i class="ph   ph-align-right"></i>
             </button>
             <button
               data-al="top"
               title="Align tops"
               data-i18n-title="tools:editPdfText.tipAlignTops"
             >
-              <i class="ph ph-align-top"></i>
+              <i class="ph   ph-align-top"></i>
             </button>
             <button
               data-al="vcenter"
               title="Align vertical centers"
               data-i18n-title="tools:editPdfText.tipAlignVerticalCenters"
             >
-              <i class="ph ph-align-center-vertical"></i>
+              <i class="ph   ph-align-center-vertical"></i>
             </button>
             <button
               data-al="bottom"
               title="Align bottoms"
               data-i18n-title="tools:editPdfText.tipAlignBottoms"
             >
-              <i class="ph ph-align-bottom"></i>
+              <i class="ph   ph-align-bottom"></i>
             </button>
             <button
               data-al="disth"
               title="Distribute horizontally"
               data-i18n-title="tools:editPdfText.tipDistributeHorizontally"
             >
-              <i class="ph ph-columns"></i>
+              <i class="ph   ph-columns"></i>
             </button>
             <button
               data-al="distv"
               title="Distribute vertically"
               data-i18n-title="tools:editPdfText.tipDistributeVertically"
             >
-              <i class="ph ph-rows"></i>
+              <i class="ph   ph-rows"></i>
             </button>
           </div>
         </div>
 
         <aside id="inspector" hidden>
-          <h2><i class="ph ph-sliders-horizontal"></i> Format</h2>
+          <h2><i class="ph   ph-sliders-horizontal"></i> Format</h2>
           <h3 class="sect" data-i18n="tools:editPdfText.font">Font</h3>
           <div class="row">
             <select id="fFamily"></select>
@@ -891,18 +891,18 @@
           <div class="row">
             <button
               id="sysFonts"
-              class="btn grow"
+              class="btn   grow"
               title="List fonts installed on this device (Chromium)"
               data-i18n-title="tools:editPdfText.tipListFontsInstalledOnThisDeviceChromium"
             >
-              <i class="ph ph-download-simple"></i
+              <i class="ph   ph-download-simple"></i
               ><span data-i18n="tools:editPdfText.systemFonts"
                 >System fonts</span
               >
             </button>
           </div>
           <h3 class="sect" data-i18n="tools:editPdfText.color">Color</h3>
-          <div class="row swatchrow">
+          <div class="row   swatchrow">
             <div class="swatches" id="fSwatches"></div>
             <input
               id="fColor"
@@ -916,98 +916,98 @@
             Alignment
           </h3>
           <div class="row">
-            <div class="segmented small grow" id="fAlign">
+            <div class="segmented   small   grow" id="fAlign">
               <button
                 data-a="0"
                 title="Align left"
                 data-i18n-title="tools:editPdfText.tipAlignLeft"
               >
-                <i class="ph ph-text-align-left"></i>
+                <i class="ph   ph-text-align-left"></i>
               </button>
               <button
                 data-a="1"
                 title="Align center"
                 data-i18n-title="tools:editPdfText.tipAlignCenter"
               >
-                <i class="ph ph-text-align-center"></i>
+                <i class="ph   ph-text-align-center"></i>
               </button>
               <button
                 data-a="2"
                 title="Align right"
                 data-i18n-title="tools:editPdfText.tipAlignRight"
               >
-                <i class="ph ph-text-align-right"></i>
+                <i class="ph   ph-text-align-right"></i>
               </button>
               <button
                 data-a="3"
                 title="Justify"
                 data-i18n-title="tools:editPdfText.tipJustify"
               >
-                <i class="ph ph-text-align-justify"></i>
+                <i class="ph   ph-text-align-justify"></i>
               </button>
             </div>
           </div>
           <h3 class="sect" data-i18n="tools:editPdfText.style">Style</h3>
-          <div class="row toggles" id="fToggles">
+          <div class="row   toggles" id="fToggles">
             <button
               data-t="bold"
               title="Bold"
               data-i18n-title="tools:editPdfText.tipBold"
             >
-              <i class="ph ph-text-b"></i>
+              <i class="ph   ph-text-b"></i>
             </button>
             <button
               data-t="italic"
               title="Italic"
               data-i18n-title="tools:editPdfText.tipItalic"
             >
-              <i class="ph ph-text-italic"></i>
+              <i class="ph   ph-text-italic"></i>
             </button>
             <button
               data-t="underline"
               title="Underline"
               data-i18n-title="tools:editPdfText.tipUnderline"
             >
-              <i class="ph ph-text-underline"></i>
+              <i class="ph   ph-text-underline"></i>
             </button>
             <button
               data-t="strike"
               title="Strikethrough"
               data-i18n-title="tools:editPdfText.tipStrikethrough"
             >
-              <i class="ph ph-text-strikethrough"></i>
+              <i class="ph   ph-text-strikethrough"></i>
             </button>
             <button
               data-t="sup"
               title="Superscript"
               data-i18n-title="tools:editPdfText.tipSuperscript"
             >
-              <i class="ph ph-text-superscript"></i>
+              <i class="ph   ph-text-superscript"></i>
             </button>
             <button
               data-t="sub"
               title="Subscript"
               data-i18n-title="tools:editPdfText.tipSubscript"
             >
-              <i class="ph ph-text-subscript"></i>
+              <i class="ph   ph-text-subscript"></i>
             </button>
           </div>
           <h3 class="sect" data-i18n="tools:editPdfText.lists">Lists</h3>
           <div class="row">
-            <div class="segmented small" id="fList">
+            <div class="segmented   small" id="fList">
               <button
                 data-l="bullet"
                 title="Toggle bulleted item"
                 data-i18n-title="tools:editPdfText.tipToggleBulletedItem"
               >
-                <i class="ph ph-list-bullets"></i>
+                <i class="ph   ph-list-bullets"></i>
               </button>
               <button
                 data-l="number"
                 title="Toggle numbered item"
                 data-i18n-title="tools:editPdfText.tipToggleNumberedItem"
               >
-                <i class="ph ph-list-numbers"></i>
+                <i class="ph   ph-list-numbers"></i>
               </button>
             </div>
             <select
@@ -1021,20 +1021,20 @@
               <option value="i">i. ii. iii.</option>
               <option value="I">I. II. III.</option>
             </select>
-            <div class="segmented small" id="fLevel">
+            <div class="segmented   small" id="fLevel">
               <button
                 data-lv="-1"
                 title="Decrease list indent (⇧Tab)"
                 data-i18n-title="tools:editPdfText.tipDecreaseListIndentTab"
               >
-                <i class="ph ph-text-outdent"></i>
+                <i class="ph   ph-text-outdent"></i>
               </button>
               <button
                 data-lv="1"
                 title="Increase list indent (Tab)"
                 data-i18n-title="tools:editPdfText.tipIncreaseListIndentTab"
               >
-                <i class="ph ph-text-indent"></i>
+                <i class="ph   ph-text-indent"></i>
               </button>
             </div>
           </div>
@@ -1133,7 +1133,7 @@
             Direction
           </h3>
           <div class="row">
-            <div class="segmented small grow" id="fDir">
+            <div class="segmented   small   grow" id="fDir">
               <button
                 data-d="0"
                 title="From content"
@@ -1187,46 +1187,46 @@
         <div class="vbzoom">
           <button
             id="zoomMenuBtn"
-            class="btn vbzoomlabel"
+            class="btn   vbzoomlabel"
             title="Zoom presets"
             data-i18n-title="tools:editPdfText.tipZoomPresets"
           >
             <span id="zoomLabel" class="label">100%</span
-            ><i class="ph ph-caret-down editcaret"></i>
+            ><i class="ph   ph-caret-down   editcaret"></i>
           </button>
           <button
             id="zoomOut"
-            class="btn icon"
+            class="btn   icon"
             title="Zoom out"
             data-i18n-title="tools:editPdfText.tipZoomOut"
           >
-            <i class="ph ph-minus-circle"></i>
+            <i class="ph   ph-minus-circle"></i>
           </button>
           <button
             id="zoomIn"
-            class="btn icon"
+            class="btn   icon"
             title="Zoom in"
             data-i18n-title="tools:editPdfText.tipZoomIn"
           >
-            <i class="ph ph-plus-circle"></i>
+            <i class="ph   ph-plus-circle"></i>
           </button>
           <button
             id="zoomFit"
-            class="btn icon"
+            class="btn   icon"
             title="Fit page"
             data-i18n-title="tools:editPdfText.tipFitPage"
           >
-            <i class="ph ph-frame-corners"></i>
+            <i class="ph   ph-frame-corners"></i>
           </button>
         </div>
         <div class="vbcenter">
           <button
             id="prev"
-            class="btn icon"
+            class="btn   icon"
             title="Previous page"
             data-i18n-title="tools:editPdfText.tipPreviousPage"
           >
-            <i class="ph ph-caret-left"></i>
+            <i class="ph   ph-caret-left"></i>
           </button>
           <span id="pageLabel" class="label">– / –</span>
           <input
@@ -1238,43 +1238,43 @@
             title="Type a page number and press Enter"
             data-i18n-title="tools:editPdfText.tipTypeAPageNumberAndPressEnter"
           />
-          <span id="pageTotal" class="label pagetotal">/ –</span>
+          <span id="pageTotal" class="label   pagetotal">/ –</span>
           <button
             id="next"
-            class="btn icon"
+            class="btn   icon"
             title="Next page"
             data-i18n-title="tools:editPdfText.tipNextPage"
           >
-            <i class="ph ph-caret-right"></i>
+            <i class="ph   ph-caret-right"></i>
           </button>
         </div>
         <div class="vbright">
           <button
             id="docInfoBtn"
-            class="btn icon"
+            class="btn   icon"
             title="Document properties"
             data-i18n-title="tools:editPdfText.tipDocumentProperties"
           >
-            <i class="ph ph-info"></i>
+            <i class="ph   ph-info"></i>
           </button>
           <button
             id="vbCollapse"
-            class="btn icon"
+            class="btn   icon"
             title="Hide bar"
             data-i18n-title="tools:editPdfText.tipHideBar"
           >
-            <i class="ph ph-caret-double-down"></i>
+            <i class="ph   ph-caret-double-down"></i>
           </button>
         </div>
       </div>
       <button
         id="vbRestore"
-        class="btn icon"
+        class="btn   icon"
         hidden
         title="Show bar"
         data-i18n-title="tools:editPdfText.tipShowBar"
       >
-        <i class="ph ph-caret-double-up"></i>
+        <i class="ph   ph-caret-double-up"></i>
       </button>
 
       <div id="toast" hidden></div>
@@ -1282,15 +1282,15 @@
 
     <div
       id="loader-modal"
-      class="hidden fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50"
+      class="hidden   fixed   inset-0   bg-black   bg-opacity-75   flex   items-center   justify-center   z-50"
     >
       <div
-        class="bg-gray-800 p-8 rounded-lg flex flex-col items-center gap-4 border border-gray-700 shadow-xl"
+        class="bg-gray-800   p-8   rounded-lg   flex   flex-col   items-center   gap-4   border   border-gray-700   shadow-xl"
       >
         <div class="solid-spinner"></div>
         <p
           id="loader-text"
-          class="text-white text-lg font-medium"
+          class="text-white   text-lg   font-medium"
           data-i18n="loader.processing"
         >
           Processing...
@@ -1300,22 +1300,22 @@
 
     <div
       id="alert-modal"
-      class="fixed inset-0 bg-gray-900 bg-opacity-90 flex items-center justify-center z-50 hidden"
+      class="fixed   inset-0   bg-gray-900   bg-opacity-90   flex   items-center   justify-center   z-50   hidden"
     >
       <div
-        class="bg-gray-800 rounded-lg shadow-xl p-6 max-w-sm w-full border border-gray-700"
+        class="bg-gray-800   rounded-lg   shadow-xl   p-6   max-w-sm   w-full   border   border-gray-700"
       >
         <h3
           id="alert-title"
-          class="text-xl font-bold text-white mb-2"
+          class="text-xl   font-bold   text-white   mb-2"
           data-i18n="alert.title"
         >
           Alert
         </h3>
-        <p id="alert-message" class="text-gray-300 mb-6"></p>
+        <p id="alert-message" class="text-gray-300   mb-6"></p>
         <button
           id="alert-ok"
-          class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-200"
+          class="w-full   bg-indigo-600   hover:bg-indigo-700   text-white   font-semibold   py-2   px-4   rounded-lg   transition-colors   duration-200"
           data-i18n="alert.ok"
         >
           OK
@@ -1333,7 +1333,7 @@
       {
         "@context": "https://schema.org",
         "@type": "SoftwareApplication",
-        "name": "Edit PDF Text - BentoPDF",
+        "name": "Edit PDF Text - المحرر",
         "applicationCategory": "PDF Tool",
         "operatingSystem": "Any - Web Browser",
         "offers": {

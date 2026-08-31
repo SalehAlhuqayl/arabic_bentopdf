@@ -84,6 +84,13 @@ export const getLanguageFromUrl = (): SupportedLanguage => {
     return storedLang as SupportedLanguage;
   }
 
+  // The configured default wins over browser preferences so the unprefixed
+  // root serves the brand's primary language (Arabic) to first-time visitors.
+  const envLang = import.meta.env?.VITE_DEFAULT_LANGUAGE;
+  if (envLang && supportedLanguages.includes(envLang as SupportedLanguage)) {
+    return envLang as SupportedLanguage;
+  }
+
   // Check browser language preferences
   if (typeof navigator !== 'undefined' && navigator.languages) {
     for (const lang of navigator.languages) {
@@ -98,12 +105,7 @@ export const getLanguageFromUrl = (): SupportedLanguage => {
     }
   }
 
-  const envLang = import.meta.env?.VITE_DEFAULT_LANGUAGE;
-  if (envLang && supportedLanguages.includes(envLang as SupportedLanguage)) {
-    return envLang as SupportedLanguage;
-  }
-
-  return 'en';
+  return 'ar';
 };
 
 let initialized = false;

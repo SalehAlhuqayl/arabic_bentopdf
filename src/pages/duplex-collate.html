@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Duplex Collate - Reorder Front/Back Scan Blocks | BentoPDF</title>
+    <title>Duplex Collate - Reorder Front/Back Scan Blocks | المحرر</title>
     <meta
       name="title"
-      content="Duplex Collate - Reorder Front/Back Scan Blocks | BentoPDF"
+      content="Duplex Collate - Reorder Front/Back Scan Blocks | المحرر"
     />
     <meta
       name="description"
@@ -17,7 +17,7 @@
       name="keywords"
       content="duplex collate, adf scan reorder, front back pdf, collate scanned pdf, duplex sort pdf"
     />
-    <meta name="author" content="BentoPDF" />
+    <meta name="author" content="المحرر" />
     <meta
       name="robots"
       content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
@@ -74,22 +74,22 @@
     <link rel="icon" href="/favicon.ico" sizes="32x32" />
   </head>
 
-  <body class="antialiased bg-gray-900">
+  <body class="antialiased   bg-gray-900">
     <!-- htmlhint spec-char-escape:false -->
     {{> navbar }}
     <!-- htmlhint spec-char-escape:true -->
 
     <div
       id="uploader"
-      class="min-h-screen flex flex-col items-center justify-start py-12 p-4 bg-gray-900"
+      class="min-h-screen   flex   flex-col   items-center   justify-start   py-12   p-4   bg-gray-900"
     >
       <div
         id="tool-uploader"
-        class="bg-gray-800 rounded-xl shadow-xl px-4 py-8 md:p-8 max-w-2xl w-full text-gray-200 border border-gray-700"
+        class="bg-gray-800   rounded-xl   shadow-xl   px-4   py-8   md:p-8   max-w-2xl   w-full   text-gray-200   border   border-gray-700"
       >
         <button
           id="back-to-tools"
-          class="flex items-center gap-2 text-indigo-400 hover:text-indigo-300 mb-6 font-semibold"
+          class="flex   items-center   gap-2   text-indigo-400   hover:text-indigo-300   mb-6   font-semibold"
         >
           <i data-lucide="arrow-left" class="cursor-pointer"></i>
           <span class="cursor-pointer" data-i18n="tools.backToTools"
@@ -98,56 +98,56 @@
         </button>
 
         <h1
-          class="text-2xl font-bold text-white mb-2"
+          class="text-2xl   font-bold   text-white   mb-2"
           data-i18n="tools:duplexCollate.name"
         >
           Duplex Collate
         </h1>
-        <p class="text-gray-400 mb-6" data-i18n="tools:duplexCollate.subtitle">
+        <p class="text-gray-400   mb-6" data-i18n="tools:duplexCollate.subtitle">
           Reorder a PDF scanned as two blocks (all fronts, then all backs) into
           proper front/back order.
         </p>
 
         <div
           id="drop-zone"
-          class="relative flex flex-col items-center justify-center w-full h-48 md:h-64 border-2 border-dashed border-gray-600 rounded-xl cursor-pointer bg-gray-900 hover:bg-gray-700 transition-colors duration-300"
+          class="relative   flex   flex-col   items-center   justify-center   w-full   h-48   md:h-64   border-2   border-dashed   border-gray-600   rounded-xl   cursor-pointer   bg-gray-900   hover:bg-gray-700   transition-colors   duration-300"
         >
-          <div class="flex flex-col items-center justify-center pt-5 pb-6">
+          <div class="flex   flex-col   items-center   justify-center   pt-5   pb-6">
             <i
               data-lucide="upload-cloud"
-              class="w-10 h-10 mb-3 text-gray-400"
+              class="w-10   h-10   mb-3   text-gray-400"
             ></i>
-            <p class="mb-2 text-sm text-gray-400">
+            <p class="mb-2   text-sm   text-gray-400">
               <span class="font-semibold" data-i18n="upload.clickToSelect"
                 >Click to select a file</span
               >
               <span data-i18n="upload.orDragAndDrop">or drag and drop</span>
             </p>
-            <p class="text-xs text-gray-500" data-i18n="upload.hints.singlePdf">
+            <p class="text-xs   text-gray-500" data-i18n="upload.hints.singlePdf">
               A single PDF file
             </p>
-            <p class="text-xs text-gray-500" data-i18n="upload.filesNeverLeave">
+            <p class="text-xs   text-gray-500" data-i18n="upload.filesNeverLeave">
               Your files never leave your device.
             </p>
           </div>
           <input
             id="file-input"
             type="file"
-            class="absolute top-0 left-0 w-full h-full opacity-0 cursor-pointer"
+            class="absolute   top-0   start-0   w-full   h-full   opacity-0   cursor-pointer"
             accept="application/pdf"
           />
         </div>
 
-        <div id="file-display-area" class="mt-4 space-y-2"></div>
+        <div id="file-display-area" class="mt-4   space-y-2"></div>
 
         <div
           id="odd-page-banner"
-          class="hidden mt-3 p-3 bg-yellow-900/50 border border-yellow-600 text-yellow-300 text-sm rounded-lg"
+          class="hidden   mt-3   p-3   bg-yellow-900/50   border   border-yellow-600   text-yellow-300   text-sm   rounded-lg"
         ></div>
 
-        <div id="duplex-options" class="hidden mt-6 space-y-4">
-          <div class="p-3 bg-gray-900 rounded-lg border border-gray-700">
-            <p class="text-sm text-gray-300">
+        <div id="duplex-options" class="hidden   mt-6   space-y-4">
+          <div class="p-3   bg-gray-900   rounded-lg   border   border-gray-700">
+            <p class="text-sm   text-gray-300">
               <span data-i18n="tools:duplexCollate.totalPagesLabel"
                 >Total pages:</span
               >
@@ -155,11 +155,11 @@
             </p>
           </div>
 
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+          <div class="grid   grid-cols-1   md:grid-cols-2   gap-3">
             <div>
               <label
                 for="split-page"
-                class="block mb-2 text-sm font-medium text-gray-300"
+                class="block   mb-2   text-sm   font-medium   text-gray-300"
                 data-i18n="tools:duplexCollate.splitAfterPageLabel"
                 >Split after page</label
               >
@@ -167,7 +167,7 @@
                 id="split-page"
                 type="number"
                 min="1"
-                class="w-full bg-gray-700 border border-gray-600 text-white rounded-lg p-2.5"
+                class="w-full   bg-gray-700   border   border-gray-600   text-white   rounded-lg   p-2.5"
                 placeholder="e.g. 50"
                 data-i18n-placeholder="tools:duplexCollate.splitAfterPagePlaceholder"
               />
@@ -176,13 +176,13 @@
             <div>
               <label
                 for="back-order"
-                class="block mb-2 text-sm font-medium text-gray-300"
+                class="block   mb-2   text-sm   font-medium   text-gray-300"
                 data-i18n="tools:duplexCollate.backBlockOrderLabel"
                 >Back block order</label
               >
               <select
                 id="back-order"
-                class="w-full bg-gray-700 border border-gray-600 text-white rounded-lg p-2.5"
+                class="w-full   bg-gray-700   border   border-gray-600   text-white   rounded-lg   p-2.5"
               >
                 <option
                   value="reverse"
@@ -203,27 +203,27 @@
 
           <button
             id="auto-split-btn"
-            class="w-full bg-gray-700 hover:bg-gray-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-200"
+            class="w-full   bg-gray-700   hover:bg-gray-600   text-white   font-semibold   py-2   px-4   rounded-lg   transition-colors   duration-200"
             data-i18n="tools:duplexCollate.autoSplitButton"
           >
             Auto-detect split (half)
           </button>
 
-          <div class="p-3 bg-gray-900 rounded-lg border border-gray-700">
-            <p id="duplex-preview-summary" class="text-sm text-gray-300"></p>
+          <div class="p-3   bg-gray-900   rounded-lg   border   border-gray-700">
+            <p id="duplex-preview-summary" class="text-sm   text-gray-300"></p>
             <p
               id="duplex-warning"
-              class="text-sm text-yellow-400 mt-2 hidden"
+              class="text-sm   text-yellow-400   mt-2   hidden"
             ></p>
           </div>
 
           <label
-            class="flex items-center gap-2 text-sm text-gray-300 cursor-pointer"
+            class="flex   items-center   gap-2   text-sm   text-gray-300   cursor-pointer"
           >
             <input
               id="export-grouped"
               type="checkbox"
-              class="w-4 h-4 text-indigo-600 bg-gray-700 border-gray-600 rounded"
+              class="w-4   h-4   text-indigo-600   bg-gray-700   border-gray-600   rounded"
             />
             <span data-i18n="tools:duplexCollate.exportGroupedLabel"
               >Export grouped files by original document length</span
@@ -233,7 +233,7 @@
           <div id="grouped-options" class="hidden">
             <label
               for="pages-per-document"
-              class="block mb-2 text-sm font-medium text-gray-300"
+              class="block   mb-2   text-sm   font-medium   text-gray-300"
               data-i18n="tools:duplexCollate.pagesPerDocumentLabel"
               >Pages per original document</label
             >
@@ -242,10 +242,10 @@
               type="number"
               min="1"
               value="2"
-              class="w-full bg-gray-700 border border-gray-600 text-white rounded-lg p-2.5"
+              class="w-full   bg-gray-700   border   border-gray-600   text-white   rounded-lg   p-2.5"
             />
             <p
-              class="text-xs text-gray-400 mt-2"
+              class="text-xs   text-gray-400   mt-2"
               data-i18n="tools:duplexCollate.groupedHelp"
             >
               If enabled, output is a ZIP containing one PDF per grouped
@@ -255,7 +255,7 @@
 
           <button
             id="process-btn"
-            class="btn-gradient w-full mt-2"
+            class="btn-gradient   w-full   mt-2"
             data-i18n="tools:duplexCollate.collateButton"
           >
             Collate PDF
@@ -266,13 +266,13 @@
 
     <div
       id="loader-modal"
-      class="hidden fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50"
+      class="hidden   fixed   inset-0   bg-black   bg-opacity-75   flex   items-center   justify-center   z-50"
     >
       <div
-        class="bg-gray-800 p-8 rounded-lg flex flex-col items-center gap-4 border border-gray-700 shadow-xl"
+        class="bg-gray-800   p-8   rounded-lg   flex   flex-col   items-center   gap-4   border   border-gray-700   shadow-xl"
       >
         <div class="solid-spinner"></div>
-        <p id="loader-text" class="text-white text-lg font-medium">
+        <p id="loader-text" class="text-white   text-lg   font-medium">
           Processing...
         </p>
       </div>
@@ -280,18 +280,18 @@
 
     <div
       id="alert-modal"
-      class="fixed inset-0 bg-gray-900 bg-opacity-90 flex items-center justify-center z-50 hidden"
+      class="fixed   inset-0   bg-gray-900   bg-opacity-90   flex   items-center   justify-center   z-50   hidden"
     >
       <div
-        class="bg-gray-800 rounded-lg shadow-xl p-6 max-w-sm w-full border border-gray-700"
+        class="bg-gray-800   rounded-lg   shadow-xl   p-6   max-w-sm   w-full   border   border-gray-700"
       >
-        <h3 id="alert-title" class="text-xl font-bold text-white mb-2">
+        <h3 id="alert-title" class="text-xl   font-bold   text-white   mb-2">
           Alert
         </h3>
-        <p id="alert-message" class="text-gray-300 mb-6"></p>
+        <p id="alert-message" class="text-gray-300   mb-6"></p>
         <button
           id="alert-ok"
-          class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-200"
+          class="w-full   bg-indigo-600   hover:bg-indigo-700   text-white   font-semibold   py-2   px-4   rounded-lg   transition-colors   duration-200"
         >
           OK
         </button>
@@ -300,33 +300,33 @@
 
     <div
       id="confirm-modal"
-      class="fixed inset-0 bg-gray-900 bg-opacity-90 flex items-center justify-center z-50 hidden"
+      class="fixed   inset-0   bg-gray-900   bg-opacity-90   flex   items-center   justify-center   z-50   hidden"
     >
       <div
-        class="bg-gray-800 rounded-lg shadow-xl p-6 max-w-sm w-full border border-gray-700"
+        class="bg-gray-800   rounded-lg   shadow-xl   p-6   max-w-sm   w-full   border   border-gray-700"
       >
         <h3
           id="confirm-title"
-          class="text-xl font-bold text-white mb-2"
+          class="text-xl   font-bold   text-white   mb-2"
           data-i18n="tools:duplexCollate.unevenConfirmTitle"
         >
           Uneven Blocks
         </h3>
         <p
           id="confirm-message"
-          class="text-gray-300 mb-6 whitespace-pre-line"
+          class="text-gray-300   mb-6   whitespace-pre-line"
         ></p>
-        <div class="flex gap-3">
+        <div class="flex   gap-3">
           <button
             id="confirm-cancel"
-            class="flex-1 bg-gray-700 hover:bg-gray-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-200"
+            class="flex-1   bg-gray-700   hover:bg-gray-600   text-white   font-semibold   py-2   px-4   rounded-lg   transition-colors   duration-200"
             data-i18n="common.cancel"
           >
             Cancel
           </button>
           <button
             id="confirm-proceed"
-            class="flex-1 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-200"
+            class="flex-1   bg-indigo-600   hover:bg-indigo-700   text-white   font-semibold   py-2   px-4   rounded-lg   transition-colors   duration-200"
             data-i18n="warning.proceed"
           >
             Proceed
@@ -336,23 +336,23 @@
     </div>
 
     <!-- How It Works Section -->
-    <section class="max-w-4xl mx-auto px-4 py-12">
+    <section class="max-w-4xl   mx-auto   px-4   py-12">
       <h2
-        class="text-2xl md:text-3xl font-bold text-white mb-8 text-center"
+        class="text-2xl   md:text-3xl   font-bold   text-white   mb-8   text-center"
         data-i18n="howItWorks.title"
       >
         How It Works
       </h2>
       <div class="space-y-6">
-        <div class="flex items-start gap-4">
+        <div class="flex   items-start   gap-4">
           <div
-            class="flex-shrink-0 w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center text-white font-bold"
+            class="flex-shrink-0   w-10   h-10   bg-indigo-600   rounded-full   flex   items-center   justify-center   text-white   font-bold"
           >
             1
           </div>
           <div class="flex-1">
             <h3
-              class="text-lg font-semibold text-white mb-1"
+              class="text-lg   font-semibold   text-white   mb-1"
               data-i18n="tools:duplexCollate.howItWorksStep1Title"
             >
               Upload the scan
@@ -366,15 +366,15 @@
             </p>
           </div>
         </div>
-        <div class="flex items-start gap-4">
+        <div class="flex   items-start   gap-4">
           <div
-            class="flex-shrink-0 w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center text-white font-bold"
+            class="flex-shrink-0   w-10   h-10   bg-indigo-600   rounded-full   flex   items-center   justify-center   text-white   font-bold"
           >
             2
           </div>
           <div class="flex-1">
             <h3
-              class="text-lg font-semibold text-white mb-1"
+              class="text-lg   font-semibold   text-white   mb-1"
               data-i18n="tools:duplexCollate.howItWorksStep2Title"
             >
               Set the split point
@@ -388,15 +388,15 @@
             </p>
           </div>
         </div>
-        <div class="flex items-start gap-4">
+        <div class="flex   items-start   gap-4">
           <div
-            class="flex-shrink-0 w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center text-white font-bold"
+            class="flex-shrink-0   w-10   h-10   bg-indigo-600   rounded-full   flex   items-center   justify-center   text-white   font-bold"
           >
             3
           </div>
           <div class="flex-1">
             <h3
-              class="text-lg font-semibold text-white mb-1"
+              class="text-lg   font-semibold   text-white   mb-1"
               data-i18n="tools:duplexCollate.howItWorksStep3Title"
             >
               Collate and download
@@ -414,79 +414,79 @@
     </section>
 
     <!-- Related Tools Section -->
-    <section class="max-w-6xl mx-auto px-4 py-12">
+    <section class="max-w-6xl   mx-auto   px-4   py-12">
       <h2
-        class="text-2xl md:text-3xl font-bold text-white mb-6 text-center"
+        class="text-2xl   md:text-3xl   font-bold   text-white   mb-6   text-center"
         data-i18n="relatedTools.title"
       >
         Related PDF Tools
       </h2>
-      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+      <div class="grid   grid-cols-2   md:grid-cols-3   lg:grid-cols-6   gap-4">
         <a
           href="split-pdf.html"
-          class="block bg-gray-800 p-4 rounded-lg hover:bg-gray-700 transition-colors border border-gray-700"
+          class="block   bg-gray-800   p-4   rounded-lg   hover:bg-gray-700   transition-colors   border   border-gray-700"
         >
-          <h3 class="text-white font-semibold mb-1">Split PDF</h3>
-          <p class="text-gray-400 text-sm">Free online split PDF tool</p>
+          <h3 class="text-white   font-semibold   mb-1">Split PDF</h3>
+          <p class="text-gray-400   text-sm">Free online split PDF tool</p>
         </a>
         <a
           href="merge-pdf.html"
-          class="block bg-gray-800 p-4 rounded-lg hover:bg-gray-700 transition-colors border border-gray-700"
+          class="block   bg-gray-800   p-4   rounded-lg   hover:bg-gray-700   transition-colors   border   border-gray-700"
         >
-          <h3 class="text-white font-semibold mb-1">Merge PDF</h3>
-          <p class="text-gray-400 text-sm">Free online merge PDF tool</p>
+          <h3 class="text-white   font-semibold   mb-1">Merge PDF</h3>
+          <p class="text-gray-400   text-sm">Free online merge PDF tool</p>
         </a>
         <a
           href="alternate-merge.html"
-          class="block bg-gray-800 p-4 rounded-lg hover:bg-gray-700 transition-colors border border-gray-700"
+          class="block   bg-gray-800   p-4   rounded-lg   hover:bg-gray-700   transition-colors   border   border-gray-700"
         >
-          <h3 class="text-white font-semibold mb-1">Alternate Merge</h3>
-          <p class="text-gray-400 text-sm">Free online alternate merge tool</p>
+          <h3 class="text-white   font-semibold   mb-1">Alternate Merge</h3>
+          <p class="text-gray-400   text-sm">Free online alternate merge tool</p>
         </a>
         <a
           href="organize-pdf.html"
-          class="block bg-gray-800 p-4 rounded-lg hover:bg-gray-700 transition-colors border border-gray-700"
+          class="block   bg-gray-800   p-4   rounded-lg   hover:bg-gray-700   transition-colors   border   border-gray-700"
         >
-          <h3 class="text-white font-semibold mb-1">Organize PDF</h3>
-          <p class="text-gray-400 text-sm">Free online organize PDF tool</p>
+          <h3 class="text-white   font-semibold   mb-1">Organize PDF</h3>
+          <p class="text-gray-400   text-sm">Free online organize PDF tool</p>
         </a>
         <a
           href="reverse-pages.html"
-          class="block bg-gray-800 p-4 rounded-lg hover:bg-gray-700 transition-colors border border-gray-700"
+          class="block   bg-gray-800   p-4   rounded-lg   hover:bg-gray-700   transition-colors   border   border-gray-700"
         >
-          <h3 class="text-white font-semibold mb-1">Reverse Pages</h3>
-          <p class="text-gray-400 text-sm">Free online reverse pages tool</p>
+          <h3 class="text-white   font-semibold   mb-1">Reverse Pages</h3>
+          <p class="text-gray-400   text-sm">Free online reverse pages tool</p>
         </a>
         <a
           href="extract-pages.html"
-          class="block bg-gray-800 p-4 rounded-lg hover:bg-gray-700 transition-colors border border-gray-700"
+          class="block   bg-gray-800   p-4   rounded-lg   hover:bg-gray-700   transition-colors   border   border-gray-700"
         >
-          <h3 class="text-white font-semibold mb-1">Extract Pages</h3>
-          <p class="text-gray-400 text-sm">Free online extract pages tool</p>
+          <h3 class="text-white   font-semibold   mb-1">Extract Pages</h3>
+          <p class="text-gray-400   text-sm">Free online extract pages tool</p>
         </a>
       </div>
     </section>
 
     <!-- FAQ Section -->
-    <section class="max-w-4xl mx-auto px-4 py-12">
+    <section class="max-w-4xl   mx-auto   px-4   py-12">
       <h2
-        class="text-2xl md:text-3xl font-bold text-white mb-6 text-center"
+        class="text-2xl   md:text-3xl   font-bold   text-white   mb-6   text-center"
         data-i18n="faq.sectionTitle"
       >
         Frequently Asked Questions
       </h2>
       <div class="space-y-4">
-        <details class="bg-gray-800 p-5 rounded-lg border border-gray-700">
+        <details class="bg-gray-800   p-5   rounded-lg   border   border-gray-700">
           <summary
-            class="cursor-pointer font-semibold text-white flex items-center justify-between"
+            class="cursor-pointer   font-semibold   text-white   flex   items-center   justify-between"
           >
             <span data-i18n="tools:duplexCollate.faqOddPagesQuestion"
               >What if my scan has an odd number of pages?</span
             >
-            <i data-lucide="chevron-down" class="w-5 h-5"></i>
+            <i data-lucide="chevron-down" class="w-5   h-5"></i>
           </summary>
           <p
-            class="mt-3 text-gray-400"
+            class="mt-3   text-gray-400"
             data-i18n="tools:duplexCollate.faqOddPagesAnswer"
           >
             A duplex scan should have an even page count. If it does not, a page
@@ -495,17 +495,17 @@
             nothing is lost.
           </p>
         </details>
-        <details class="bg-gray-800 p-5 rounded-lg border border-gray-700">
+        <details class="bg-gray-800   p-5   rounded-lg   border   border-gray-700">
           <summary
-            class="cursor-pointer font-semibold text-white flex items-center justify-between"
+            class="cursor-pointer   font-semibold   text-white   flex   items-center   justify-between"
           >
             <span data-i18n="tools:duplexCollate.faqBackOrderQuestion"
               >Why would I keep the back block as-is?</span
             >
-            <i data-lucide="chevron-down" class="w-5 h-5"></i>
+            <i data-lucide="chevron-down" class="w-5   h-5"></i>
           </summary>
           <p
-            class="mt-3 text-gray-400"
+            class="mt-3   text-gray-400"
             data-i18n="tools:duplexCollate.faqBackOrderAnswer"
           >
             It depends on how the stack was fed for the second pass. Flipping
@@ -514,48 +514,48 @@
             fronts, choose to keep the block as-is.
           </p>
         </details>
-        <details class="bg-gray-800 p-5 rounded-lg border border-gray-700">
+        <details class="bg-gray-800   p-5   rounded-lg   border   border-gray-700">
           <summary
-            class="cursor-pointer font-semibold text-white flex items-center justify-between"
+            class="cursor-pointer   font-semibold   text-white   flex   items-center   justify-between"
           >
             <span data-i18n="faq.isFree.question"
-              >Is BentoPDF really free?</span
+              >Is المحرر really free?</span
             >
-            <i data-lucide="chevron-down" class="w-5 h-5"></i>
+            <i data-lucide="chevron-down" class="w-5   h-5"></i>
           </summary>
-          <p class="mt-3 text-gray-400" data-i18n="faq.isFree.answer">
-            Yes, absolutely. All tools on BentoPDF are 100% free to use, with no
+          <p class="mt-3   text-gray-400" data-i18n="faq.isFree.answer">
+            Yes, absolutely. All tools on المحرر are 100% free to use, with no
             file limits, no sign-ups, and no watermarks. We believe everyone
             deserves access to simple, powerful PDF tools without a paywall.
           </p>
         </details>
-        <details class="bg-gray-800 p-5 rounded-lg border border-gray-700">
+        <details class="bg-gray-800   p-5   rounded-lg   border   border-gray-700">
           <summary
-            class="cursor-pointer font-semibold text-white flex items-center justify-between"
+            class="cursor-pointer   font-semibold   text-white   flex   items-center   justify-between"
           >
             <span data-i18n="faq.areFilesSecure.question"
               >Are my files secure? Where are they processed?</span
             >
-            <i data-lucide="chevron-down" class="w-5 h-5"></i>
+            <i data-lucide="chevron-down" class="w-5   h-5"></i>
           </summary>
-          <p class="mt-3 text-gray-400" data-i18n="faq.areFilesSecure.answer">
+          <p class="mt-3   text-gray-400" data-i18n="faq.areFilesSecure.answer">
             Your files are as secure as possible because they never leave your
             computer. All processing happens directly in your web browser
             (client-side). We never upload your files to a server, so you
             maintain complete privacy and control over your documents.
           </p>
         </details>
-        <details class="bg-gray-800 p-5 rounded-lg border border-gray-700">
+        <details class="bg-gray-800   p-5   rounded-lg   border   border-gray-700">
           <summary
-            class="cursor-pointer font-semibold text-white flex items-center justify-between"
+            class="cursor-pointer   font-semibold   text-white   flex   items-center   justify-between"
           >
             <span data-i18n="faq.platforms.question"
               >Does it work on Mac, Windows, and Mobile?</span
             >
-            <i data-lucide="chevron-down" class="w-5 h-5"></i>
+            <i data-lucide="chevron-down" class="w-5   h-5"></i>
           </summary>
-          <p class="mt-3 text-gray-400" data-i18n="faq.platforms.answer">
-            Yes! Since BentoPDF runs entirely in your browser, it works on any
+          <p class="mt-3   text-gray-400" data-i18n="faq.platforms.answer">
+            Yes! Since المحرر runs entirely in your browser, it works on any
             operating system with a modern web browser, including Windows,
             macOS, Linux, iOS, and Android.
           </p>
@@ -579,7 +579,7 @@
       {
         "@context": "https://schema.org",
         "@type": "SoftwareApplication",
-        "name": "Duplex Collate - BentoPDF",
+        "name": "Duplex Collate - المحرر",
         "applicationCategory": "PDF Tool",
         "operatingSystem": "Any - Web Browser",
         "offers": {
@@ -595,7 +595,7 @@
         "@context": "https://schema.org",
         "@type": "HowTo",
         "name": "How to collate a duplex scan online",
-        "description": "Learn how to reorder a two-block duplex scan using BentoPDF",
+        "description": "Learn how to reorder a two-block duplex scan using المحرر",
         "step": [
           {
             "@type": "HowToStep",

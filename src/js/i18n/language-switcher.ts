@@ -40,7 +40,7 @@ export const createLanguageSwitcher = (): HTMLElement => {
 
   const dropdown = document.createElement('div');
   dropdown.className = `
-    hidden absolute right-0 mt-2 z-50
+    hidden absolute end-0 mt-2 z-50
     w-64 max-w-[calc(100vw-2rem)]
     rounded-lg bg-gray-800 border border-gray-700 shadow-xl
     flex flex-col overflow-hidden
@@ -170,6 +170,13 @@ export const injectLanguageSwitcher = (): void => {
   if (simpleModeContainer) {
     const switcher = createLanguageSwitcher();
     simpleModeContainer.appendChild(switcher);
+    return;
+  }
+
+  const navContainer = document.getElementById('language-switcher-container');
+  if (navContainer) {
+    const switcher = createLanguageSwitcher();
+    navContainer.appendChild(switcher);
     return;
   }
 
