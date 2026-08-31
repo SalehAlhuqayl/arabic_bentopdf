@@ -12,7 +12,7 @@
     "noLanguagesFound": "Ingen sprog fundet"
   },
   "donation": {
-    "message": "Elsker du BentoPDF? Hjælp os med at holde det gratis og open source!",
+    "message": "Elsker du Al-Muharrir? Hjælp os med at holde det gratis og open source!",
     "button": "Donér"
   },
   "hero": {
@@ -29,7 +29,7 @@
   },
   "features": {
     "title": "Hvorfor vælge",
-    "bentoPdf": "BentoPDF?",
+    "bentoPdf": "Al-Muharrir?",
     "noSignup": {
       "title": "Ingen tilmelding",
       "description": "Start med det samme, ingen konti eller e-mails."
@@ -187,7 +187,7 @@
     "questions": "Spørgsmål",
     "sectionTitle": "Ofte stillede spørgsmål",
     "isFree": {
-      "question": "Er BentoPDF virkelig gratis?",
+      "question": "Er Al-Muharrir virkelig gratis?",
       "answer": "Ja, absolut. Alle værktøjer er 100% gratis at bruge, uden filgrænser, uden tilmeldinger og uden vandmærker."
     },
     "areFilesSecure": {
@@ -196,10 +196,10 @@
     },
     "platforms": {
       "question": "Virker det på Mac, Windows og mobil?",
-      "answer": "Ja! BentoPDF virker på alle moderne browsere, uanset styresystem."
+      "answer": "Ja! Al-Muharrir virker på alle moderne browsere, uanset styresystem."
     },
     "gdprCompliant": {
-      "question": "Er BentoPDF GDPR-kompatibel?",
+      "question": "Er Al-Muharrir GDPR-kompatibel?",
       "answer": "Ja. Da vi ikke indsamler eller behandler dine filer på vores servere, er dine data altid under din kontrol."
     },
     "dataStorage": {
@@ -207,8 +207,8 @@
       "answer": "Nej. Vi gemmer eller sporer aldrig dine filer. Alt foregår i din browser."
     },
     "different": {
-      "question": "Hvad gør BentoPDF anderledes?",
-      "answer": "De fleste PDF-værktøjer uploader dine filer til en server. BentoPDF gør det hele lokalt i din browser."
+      "question": "Hvad gør Al-Muharrir anderledes?",
+      "answer": "De fleste PDF-værktøjer uploader dine filer til en server. Al-Muharrir gør det hele lokalt i din browser."
     },
     "browserBased": {
       "question": "Hvordan gør browserbaseret behandling mig sikker?",
@@ -216,7 +216,7 @@
     },
     "analytics": {
       "question": "Bruger I cookies eller analyseværktøjer?",
-      "answer": "Nej. BentoPDF sporer dig slet ikke. Vi bruger hverken cookies, analyseværktøjer eller sporingsscripts – heller ikke på den live hjemmeside bentopdf.com. Vi ved aldrig, hvem du er, eller hvad du bruger værktøjerne til."
+      "answer": "Nej. Al-Muharrir sporer dig slet ikke. Vi bruger hverken cookies, analyseværktøjer eller sporingsscripts – heller ikke på den live hjemmeside Al-Muharrir. Vi ved aldrig, hvem du er, eller hvad du bruger værktøjerne til."
     }
   },
   "testimonials": {
@@ -226,11 +226,11 @@
   },
   "support": {
     "title": "Kan du lide mit arbejde?",
-    "description": "BentoPDF er et passioneret projekt, bygget for at tilbyde et gratis og privat PDF-værktøj til alle.",
+    "description": "Al-Muharrir er et passioneret projekt, bygget for at tilbyde et gratis og privat PDF-værktøj til alle.",
     "buyMeCoffee": "Køb en kaffe til mig"
   },
   "footer": {
-    "copyright": "© 2026 BentoPDF. Alle rettigheder forbeholdes.",
+    "copyright": "© 2026 Al-Muharrir. Alle rettigheder forbeholdes.",
     "version": "Version",
     "company": "Virksomhed",
     "aboutUs": "Om os",
@@ -239,7 +239,8 @@
     "legal": "Juridisk",
     "termsAndConditions": "Terms and Conditions",
     "privacyPolicy": "Privacy Policy",
-    "followUs": "Følg os"
+    "followUs": "Følg os",
+    "basedOn": "Based on BentoPDF (AGPL-3.0)"
   },
   "merge": {
     "title": "Flet PDF'er",

@@ -534,8 +534,8 @@ export default defineConfig(() => {
         context: {
           baseUrl: (process.env.BASE_URL || '/').replace(/\/?$/, '/'),
           simpleMode: process.env.SIMPLE_MODE === 'true',
-          brandName: process.env.VITE_BRAND_NAME || '',
-          brandLogo: process.env.VITE_BRAND_LOGO || '',
+          brandName: process.env.VITE_BRAND_NAME || 'المحرر',
+          brandLogo: process.env.VITE_BRAND_LOGO || 'images/logo.svg',
           footerText: process.env.VITE_FOOTER_TEXT || '',
           appVersion: process.env.npm_package_version || 'Unknown',
         },
@@ -583,7 +583,7 @@ export default defineConfig(() => {
       __DISABLE_GITHUB_STARS__: JSON.stringify(
         process.env.DISABLE_GITHUB_STARS === 'true'
       ),
-      __BRAND_NAME__: JSON.stringify(process.env.VITE_BRAND_NAME || ''),
+      __BRAND_NAME__: JSON.stringify(process.env.VITE_BRAND_NAME || 'المحرر'),
       __DISABLED_TOOLS__: JSON.stringify(
         (process.env.DISABLE_TOOLS || '')
           .split(',')
